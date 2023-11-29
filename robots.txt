@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://tbrumue.github.io/sitemap.xml
