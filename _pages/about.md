@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD Student, Bits to Energy Lab, ETH Zurich, Switzerland
+subtitle: PhD Student | Bits to Energy Lab @ ETH Zurich, Switzerland
 
 profile:
   align: right
@@ -28,9 +28,9 @@ I hold a master’s degree from [RWTH Aachen University](https://www.rwth-aachen
 - 🖇 [ORCID](https://orcid.org/0009-0007-7319-1142)
 
 **What Else?**
-- 📽️ [Science slam](https://youtu.be/JFSeshpIkeE?feature=shared): A talk in German about heat pumps I gave.
-- 🎹 [Caleijdo](http://caleijdo.com/) and [Parole Emil](https://open.spotify.com/intl-de/artist/6EPS4pFwPP7drXKmSGtjQ9): My musical side projects that I mostly invest my free time in.
-- 📰 ["Nebenbei"](http://jonathanbrunner.com/category/nebenbei-1/): A photo and lyric magazine I made with a close friend.
+- 📽️ [Science slam](https://youtu.be/JFSeshpIkeE?feature=shared): A talk about heat pumps I gave in German.
+- 🎹 [Caleijdo](http://caleijdo.com/) and [Parole Emil](https://open.spotify.com/intl-de/artist/6EPS4pFwPP7drXKmSGtjQ9): My musical side projects, in which I invest most of my free time.
+- 📰 ["Nebenbei"](http://jonathanbrunner.com/category/nebenbei-1/): A photo and lyric magazine which I created with a close friend.
 - 📊 [Research proposal website](http://make-information-tactile.com): An idea about making information tactile that I had a while ago.
 
 ---
