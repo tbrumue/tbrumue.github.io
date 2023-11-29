@@ -1,12 +1,9 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - tbrumue
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - bitstoenergy/iclr-tutorial
+  - tbrumue/smd-hp-cycling
+  - tbrumue/smd-hp-type-detection
+  - tbrumue/smd-hp-disaggregation
+  - KrishnaswamyLab/logicml

@@ -1,84 +1,92 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1956investigations,
+@article{BRUDERMUELLER/2023121734,
+  abbr={Applied Energy},
   bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
-}
-
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
-}
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
+  title = {Large-scale monitoring of residential heat pump cycling using smart meter data},
+  journal = {Applied Energy},
+  volume = {350},
+  pages = {121734},
+  year = {2023},
+  issn = {0306-2619},
+  doi = {https://doi.org/10.1016/j.apenergy.2023.121734},
+  author = {Tobias Brudermueller and Markus Kreft and Elgar Fleisch and Thorsten Staake},
+  keywords = {Smart meter data, Heat pump, Cycling behavior, outlier detection, Residential buildings, Energy efficiency, Appliance monitoring, Real-world operation, Machine learning},
+  abstract = {Heat pumps play an essential role in decarbonizing the building sector, but their electricity consumption can vary significantly across buildings. This variability is closely related to their cycling behavior (i.e., the frequency of on–off transitions), which is also an indicator for improper sizing and non-optimal settings and can affect a heat pump’s lifetime. Up to now it has been unclear which cycling behaviors are typical and atypical for heat pump operation in the field and importantly, there is a lack of methods to identify heat pumps that cycle atypically. Therefore, in this study we develop a method to monitor heat pumps with energy measurements delivered by common smart electricity meters, which also cover heat pumps without network connectivity. We show how smart meter data with 15-minute resolution can be used to extract key indicators about heat pump cycling and outline how atypical behavior can be detected after controlling for outdoor temperature. Our method is robust across different building characteristics and varying times of observation, does not require contextual information, and can be implemented with existing smart meter data, making it suitable for real-world applications. Analyzing 503 heat pumps in Swiss households over a period of 21 months, we further describe behavioral differences with respect to building and heat pump characteristics and study the relationship between heat pumps’ cycling behavior, energy efficiency, and appropriate sizing. Our results show that outliers in cycling behavior are more than twice as common for air-source heat pumps than for ground-source heat pumps.},
+  html = {https://www.sciencedirect.com/science/article/pii/S030626192301098X},
+  code = {https://github.com/tbrumue/smd-hp-cycling},
+  pdf={https://www.sciencedirect.com/science/article/pii/S030626192301098X/pdfft?md5=85f55ef9292fa60054239ab4790c246e&pid=1-s2.0-S030626192301098X-main.pdf},
   selected={true}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@book{przibram1967letters,
+@inproceedings{BRUDERMUELLER/10.1145/3600100.3623731, 
+  abbr={ACM BuildSys},
   bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
+  author = {Brudermueller, Tobias and Breer, Fabian and Staake, Thorsten}, 
+  title = {Disaggregation of Heat Pump Load Profiles From Low-Resolution Smart Meter Data}, 
+  year = {2023}, 
+  isbn = {9798400702303}, 
+  publisher = {Association for Computing Machinery}, 
+  address = {New York, NY, USA}, 
+  doi = {10.1145/3600100.3623731}, 
+  abstract = {As the number of heat pumps installed in residential buildings increases, their energy-efficient operation becomes increasingly important to reduce costs and ensure the stability of the power grid. The deployment of smart electricity meters results in large amounts of smart meter data that can be used for heat pump optimization. However, sub-metering infrastructure to monitor heat pumps’ energy consumption is costly and rarely available in practice. Non-intrusive load monitoring addresses this issue and disaggregates appliance-level consumption from aggregate measurements. However, previous studies use high-resolution data of active and reactive power and do not focus on heat pumps. In this context, our study is the first to disaggregate heat pump load profiles using commonly available smart meter data with energy measurements at 15-minute resolution. We use a sliding-window approach to train and test deep learning models on a real-world data set of 363 Swiss households with heat pumps observed over a period of 8 years. Evaluating our approach with a 5-fold cross-validation, our best model achieves a mean R2 score of 0.832 and an average RMSE of 0.169 kWh, which is similar to previous work that uses high-resolution measurements of active and reactive power. Our algorithms enable real-world applications to monitor the energy efficiency of heat pumps in operation and to estimate their flexibility for demand response programs.}, 
+  booktitle = {Proceedings of the 10th ACM International Conference on Systems for Energy-Efficient Buildings, Cities, and Transportation}, 
+  pages = {228–231}, 
+  numpages = {4}, 
+  keywords = {Non-Intrusive Load Monitoring, Low Resolution, Load Disaggregation, Smart Meter Data, Heat Pump Optimization, Energy Efficiency}, 
+  location = {Istanbul, Turkey}, 
+  series = {BuildSys '23},
+  html={https://dl.acm.org/doi/10.1145/3600100.3623731},
+  code = {https://github.com/tbrumue/smd-hp-disaggregation},
+  pdf={https://dl.acm.org/doi/pdf/10.1145/3600100.3623731},
+  selected={true}
+}
+
+@inproceedings{BRUDERMUELLER/2023ICLR,
+  abbr={ICLR},
+  bibtex_show={true},
+  title={Smart meter data analytics: Practical use-cases and best practices of machine learning applications for energy data in the residential sector},
+  author={Brudermueller, Tobias and Kreft, Markus},
+  booktitle={International Conference on Learning Representations (ICLR 2023) Workshop on Tackling Climate Change with Machine Learning},
+  year={2023},
+  organization={Climate Change AI}, 
+  abstract={To cope with climate change, the energy system is undergoing a massive transformation. With the electrification of all sectors, the power grid is facing high additional demand. As a result, the digitization of the grid is becoming more of a focus. The smart grid relies heavily on the increasing deployment of smart electricity meters around the world. The corresponding smart meter data is typically a time series of power or energy measurements with a resolution of 1s to 60 min. This data provides valuable insights and opportunities for monitoring and controlling activities in the power grid. In this tutorial, we therefore provide an overview of best practices for analyzing smart meter data. We focus on machine learning applications and low resolution (15-60 minutes) energy data in a residential setting. We only use real-world datasets and cover use-cases that are highly relevant for practical applications. Although this tutorial is specifically tailored to an audience from the energy domain, we believe that anyone from the data analytics and machine learning community can benefit from it, as many techniques are applicable to any time series data. Through our tutorial, we hope to foster new ideas, contribute to an interdisciplinary exchange between different research fields, and educate people about energy use.},
+  website={https://colab.research.google.com/github/bitstoenergy/iclr-tutorial/blob/main/SmartMeterDataAnalytics_Tutorial.ipynb},
+  html={https://www.climatechange.ai/papers/iclr2023/3},
+  code={https://github.com/bitstoenergy/iclr-tutorial},
+  video={https://iclr.cc/virtual/2023/workshop/12828#collapse-sl-13527},
+  slides={https://www.climatechange.ai/papers/iclr2023/3/slides.pdf},
+  selected={true}
+}
+
+
+@INPROCEEDINGS{BRUDERMUELLER/9961055,
+  abbr={IEEE SmartGridComm},
+  bibtex_show={true},
+  author={Brudermueller, Tobias and Wirth, Florian and Weigert, Andreas and Staake, Thorsten},
+  booktitle={2022 IEEE International Conference on Communications, Control, and Computing Technologies for Smart Grids (SmartGridComm)}, 
+  title={Automatic Differentiation of Variable and Fixed Speed Heat Pumps With Smart Meter Data}, 
+  year={2022},
+  volume={},
+  number={},
+  pages={412-418},
+  doi={10.1109/SmartGridComm52983.2022.9961055},
+  html={https://ieeexplore.ieee.org/abstract/document/9961055},
+  code={https://github.com/tbrumue/smd-hp-type-detection},
+  abstract={With the increasing prevalence of heat pumps in private households, the need for optimization is growing. At the same time, the growing number of active smart electricity meters generates data that can be used for remote monitoring. In this paper, we focus on the automatic differentiation between fixed speed and variable speed heat pumps using smart meter data. This distinction is relevant because it is necessary for evaluating the state or cyclic behavior of a heat pump. In addition, identifying fixed speed heat pumps is important because they are known to be the less efficient systems and therefore may be preferred targets in energy efficiency or replacement campaigns. Our methods are applied to electricity data from 171 Swiss households with a resolution of 15 minutes. In this setting, a K-Nearest Neighbor model achieves a mean AUC of 0.976 compared to 0.5 of a biased random guess model.},
+  selected={true}
+}
+
+@article{brudermueller2020making,
+  abbr={arXiv},
+  bibtex_show={true},
+  title={Making logic learnable with neural networks},
+  author={Brudermueller, Tobias and Shung, Dennis L and Stanley, Adrian J and Stegmaier, Johannes and Krishnaswamy, Smita},
+  journal={arXiv preprint arXiv:2002.03847},
+  year={2020},
+  abstract={While neural networks are good at learning unspecified functions from training samples, they cannot be directly implemented in hardware and are often not interpretable or formally verifiable. On the other hand, logic circuits are implementable, verifiable, and interpretable but are not able to learn from training data in a generalizable way. We propose a novel logic learning pipeline that combines the advantages of neural networks and logic circuits. Our pipeline first trains a neural network on a classification task, and then translates this, first to random forests, and then to AND-Inverter logic. We show that our pipeline maintains greater accuracy than naive translations to logic, and minimizes the logic such that it is more interpretable and has decreased hardware cost. We show the utility of our pipeline on a network that is trained on biomedical data. This approach could be applied to patient care to provide risk stratification and guide clinical decision-making.},
+  html={https://arxiv.org/abs/2002.03847},
+  code={https://github.com/KrishnaswamyLab/logicml},
+  pdf={https://arxiv.org/pdf/2002.03847.pdf}
 }

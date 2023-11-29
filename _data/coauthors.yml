@@ -1,34 +1,37 @@
-"Adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"Kreft":
+  - firstname: ["Markus"]
+    url: https://scholar.google.com/citations?user=-3GGQI92D4QC&hl
 
-"Podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Fleisch":
+  - firstname: ["Elgar"]
+    url: https://im.ethz.ch/people/efleisch.html
 
-"Rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"Staake":
+  - firstname: ["Thorsten"]
+    url: https://www.uni-bamberg.de/en/eesys/team/prof-dr-thorsten-staake/
 
-"Bach": 
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"Breer": 
+  - firstname: ["Fabian"]
+    url: https://www.isea.rwth-aachen.de/cms/ISEA/Die-Organisationseinheit/Team/Wissenschaftliche-Mitarbeiter/~owrd/Fabian-Breer/?allou=1&lidx=1
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"Wirth":
+  - firstname: ["Florian"]
 
-"Przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"Weigert":
+  - firstname: ["Andreas"]
+    url: https://scholar.google.com/citations?user=dUVJckMAAAAJ&hl
 
-"Schrödinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+"Shung":
+  - firstname: ["Dennis L"]
+    url: https://scholar.google.com/citations?user=N-LePdMAAAAJ&hl
 
-"Lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
+"Krishnaswamy":
+  - firstname: ["Smita"]
+    url: https://scholar.google.com/citations?user=l2Pr9m8AAAAJ&hl
 
-"Planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"Stanley":
+  - firstname: ["Adrian J"]    
+
+"Stegmaier":
+  - firstname: ["Johannes"]
+    url: https://scholar.google.com/citations?user=gwf8A9YAAAAJ&hl
