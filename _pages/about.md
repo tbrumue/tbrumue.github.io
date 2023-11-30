@@ -23,6 +23,7 @@ I hold a master’s degree from [RWTH Aachen University](https://www.rwth-aachen
 
 **Professional Links:**
 - 💻 [Contact Details](https://im.ethz.ch/people/tbrudermuell.html)
+- 📬 [LinkedIn](https://www.linkedin.com/in/tobias-brudermueller/)
 - 👨‍💻 [GitHub](https://github.com/tbrumue)
 - 📄 [Google Scholar](https://scholar.google.com/citations?user=rpGG9_UAAAAJ&hl)
 - 🖇 [ORCID](https://orcid.org/0009-0007-7319-1142)
