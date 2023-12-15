@@ -17,6 +17,13 @@
 "Wirth":
   - firstname: ["Florian"]
 
+"Anderson":
+  - firstname: ["Tyler"]
+
+"Potthoff":
+  - firstname: ["Ugne"]
+    url: https://im.ethz.ch/people/upotthoff
+
 "Weigert":
   - firstname: ["Andreas"]
     url: https://scholar.google.com/citations?user=dUVJckMAAAAJ&hl
@@ -24,6 +31,10 @@
 "Shung":
   - firstname: ["Dennis L"]
     url: https://scholar.google.com/citations?user=N-LePdMAAAAJ&hl
+
+"Wortmann":
+  - firstname: ["Felix"]
+    url: https://scholar.google.com/citations?user=fYruVTcAAAAJ&hl
 
 "Krishnaswamy":
   - firstname: ["Smita"]
