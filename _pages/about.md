@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD Student | Bits to Energy Lab @ ETH Zurich, Switzerland
+subtitle: PhD Candidate | Bits to Energy Lab @ ETH Zurich, Switzerland
 
 profile:
   align: right
