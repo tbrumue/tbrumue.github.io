@@ -5,7 +5,7 @@
   preview = {benchmark3.jpg},
   bibtex_show={false},
   title = {Energy efficiency and behavior of heat pumps in residential buildings under real conditions},
-  journal = {Currently under review},
+  journal = {Currently in revision},
   year = {2024},
   author = {Tobias Brudermueller and Ugne Potthoff and Elgar Fleisch and Thorsten Staake and Felix Wortmann},
   abstract = {Analyzing the energy efficiency of heat pumps in residential building under real conditions.},
@@ -16,28 +16,33 @@
 
 @article{BRUDERMUELLER/EVCharging,
   preview = {evcharging.jpg},
-  bibtex_show={false},
-  title = {Predictability of electric vehicle charging: explaining extensive user behavior-specific heterogeneity},
-  journal = {Currently under review},
-  year = {2024},
+  bibtex_show={true},
   author = {Markus Kreft and Tobias Brudermueller and Elgar Fleisch and Thorsten Staake},
-  keywords = {Electric Vehicles, Smart Charging, Demand Response, Forecasting, Real-World},
+  title = {Predictability of electric vehicle charging: explaining extensive user behavior-specific heterogeneity},
+  year = {2024},
+  journal = {Applied Energy},
+  volume = {370},
+  pages = {123544},
+  issn = {0306-2619},
+  doi = {https://doi.org/10.1016/j.apenergy.2024.123544},
+  keywords = {Electric vehicles, Smart charging, Demand response, Demand prediction, Real-world data},
   abstract = {Smart charging systems can reduce the stress on the power grid from electric vehicles by coordinating the charging process. To meet user requirements, such systems need input on charging demand, i.e., departure time and desired state of charge. Deriving these parameters through predictions based on past mobility patterns allows the inference of realistic values that offer flexibility by charging vehicles until they are actually needed for departure. While previous studies have addressed the task of charging demand predictions, there is a lack of work investigating the heterogeneity of user behavior, which affects prediction performance. In this work we predict the duration and energy of residential charging sessions using a dataset with 59,520 real-world measurements from 267 electric vehicles. While replicating the results put forth in related work, we additionally find substantial differences in prediction performance between individual vehicles. An in-depth analysis shows that vehicles that on average start charging later in the day can be predicted better than others. Furthermore, we demonstrate how knowledge that a vehicles charges over night significantly increases prediction performance, reducing the mean absolute percentage error of plugged-in duration predictions from over 200 % to 15 %. Based on these insights, we propose that residential smart charging systems should focus on predictions of overnight charging to determine charging demand. These sessions are most relevant for smart charging as they offer most flexibility and need for coordinated charging and, as we show, they are also more predictable, increasing user acceptance.},
-  selected={false}
+  html={https://www.sciencedirect.com/science/article/pii/S0306261924009279},
+  code = {https://github.com/markus-kreft/ev-charging-prediction},
+  pdf={https://www.sciencedirect.com/science/article/pii/S0306261924009279/pdfft?md5=c8fbd791f1e8fe2967ce20d0a9ffb8b2&pid=1-s2.0-S0306261924009279-main.pdf},
 }
 
 @article{BRUDERMUELLER/EWHDisaggregation,
   preview = {ewhdisaggregation.jpg},
   bibtex_show={false},
   title = {Identifying Electric Water Heaters from Low-Resolution Smart Meter Data},
-  journal = {Currently under review},
+  journal = {Accepted, soon to be published - 2024 IEEE Conference on Technologies for Sustainability (SusTech)},
   year = {2024},
   author = {Markus Kreft and Tobias Brudermueller and Tyler Anderson and Thorsten Staake},
   keywords = {Load Disaggregation, Non-Intrusive Load Monitoring, Electric Water Heater, Domestic Hot Water, Smart Meter Data, Low Resolution, Demand Response, Peak Shaving, Load Shifting},
   abstract = {Despite an increasing share of heat pumps, electric water heaters are still widely used in residential applications. Their high connected load and energy consumption combined with their thermal inertia make them ideal candidates for demand response and energy saving programs. However, due to missing or outdated information about installation locations, it is difficult to run large and targeted campaigns. Thanks to an increased roll-out of advanced metering infrastructure, smart meter data is widely available, opening new opportunities to generate the missing information. In our work, we identify electric water heaters from low- resolution smart meter data with a 15-minute sampling rate and estimate their consumption using a training- free detection method. On a real-world data set with measurements from 1,962 meters over one year, we achieve 89.4% accuracy in detecting households with electric water heaters. We predict heating capacity with a mean absolute error of 0.9 kW. We also find that the installed electric water heaters lead to a peak demand that is 51% higher than in a setting without electric water heating, highlighting the importance of appropriate load management. Our method can be directly incorporated into existing demand response applications.},
   selected={false}
 }
-
 
 @article{BRUDERMUELLER/2023121734,
   preview = {hpcycling2.jpg},
