@@ -9,7 +9,7 @@ last_name: Brudermüller
 email: tbrudermuell@ethz.ch
 description: # > # the ">" symbol means to ignore newlines until "footer_text:"
   # Tobias Brudermüller
-footer_text: PhD Candidate at Bits to Energy Lab, ETH Zurich
+footer_text: Researcher @ Bits to Energy Lab, ETH Zurich
 keywords: tobias, brudermueller, brudermüller # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
