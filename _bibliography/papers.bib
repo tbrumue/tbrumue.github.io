@@ -1,5 +1,49 @@
 ---
 ---
+
+@article{BRUDERMUELLER/HPEfficiency,
+  preview = {copdistributions3.jpg},
+  bibtex_show={false},
+  title = {Estimation of energy efficiency of heat pumps in residential buildings using real operation data},
+  journal = {Nature Communications},
+  volume={16},
+  number={1},
+  pages={2834},
+  year = {2025},
+  doi = {https://doi.org/10.1038/s41467-025-58014-y},
+  author = {Tobias Brudermueller and Ugne Potthoff and Elgar Fleisch and Thorsten Staake and Felix Wortmann},
+  abstract = {As heat pumps become more prevalent in residential buildings, effective performance monitoring is essential. Design flaws, incorrect settings, and faults can escalate energy consumption and costs, leading to discrepancies in user expectations and hindering the widespread adoption of this technology crucial for the heating transition. However, field studies using large data sets to offer insights into real-world performance and methods for identifying low-performing systems in practical, scalable applications are lacking. In the largest field study to date, we analyze sensor data from 1023 heat pumps across Central Europe monitored over two years. Based on existing approaches for controlled laboratory conditions, we derive methods to evaluate and classify real-world performance using operational data. Applying these methods, we find that 17% of air-source and 2% of ground-source heat pumps do not meet existing efficiency standards. Additionally, around 10% of systems are oversized, while approximately 1% are undersized. This underscores the need for standardized post-installation performance evaluation procedures and digital tools to provide actionable feedback for users and installers to enhance operational efficiency and guide future installations.},
+  keywords = {Heat Pump, Energy Efficiency, Performance, Residential Building, Real-World Operation, Appliance Monitoring, Machine Learning, Sensor Data},
+  html={https://www.nature.com/articles/s41467-025-58014-y},
+  pdf={https://www.nature.com/articles/s41467-025-58014-y.pdf},
+  selected={true}
+}
+
+@article{BRUDERMUELLER/HEAPO,
+  preview = {heapoenergyconsumption.jpg},
+  bibtex_show={true},
+  title={HEAPO - An Open Dataset for Heat Pump Optimization with Smart Electricity Meter Data and On-Site Inspection Protocols},
+  author={Brudermueller, Tobias and Elgar Fleisch and Marina Gonzalez Vaya and Thorsten Staake},
+  journal={arXiv preprint arXiv:2503.16993},
+  year={2025},
+  abstract={Heat pumps are essential for decarbonizing residential heating but consume substantial electrical energy, impacting operational costs and grid demand. Many systems run inefficiently due to planning flaws, operational faults, or misconfigurations. While optimizing performance requires skilled professionals, labor shortages hinder large-scale interventions. However, digital tools and improved data availability create new service opportunities for energy efficiency, predictive maintenance, and demand-side management. To support research and practical solutions, we present an open-source dataset of electricity consumption from 1,408 households with heat pumps and smart electricity meters in the canton of Zurich, Switzerland, recorded at 15-minute and daily resolutions between 2018-11-03 and 2024-03-21. The dataset includes household metadata, weather data from 8 stations, and ground truth data from 410 field visit protocols collected by energy consultants during system optimizations. Additionally, the dataset includes a Python-based data loader to facilitate seamless data processing and exploration.},
+  html={https://arxiv.org/abs/2503.16993},
+  code={https://github.com/tbrumue/heapo},
+  pdf={https://arxiv.org/pdf/2503.16993.pdf},
+  selected={false}
+}
+
+@article{BRUDERMUELLER/HeatingCurve,
+  preview = {heatingcurve.jpg},
+  bibtex_show={false},
+  title = {Enabling optimization of heating curves for heat pumps in operation: outdoor temperature thresholds for energy-efficient heating curve shifts},
+  journal = {Accepted at Applied Energy. Soon to be published.},
+  year = {2025},
+  author = {Ugne Potthoff Tobias Brudermueller and Konstantin Hopf and Felix Wortmann},
+  abstract = {In the light of global sustainability efforts, heat pumps offer environmental benefits, but their complexity and potential misconfigurations often lead to homeowner dissatisfaction due to inaccurate heating and lower-than-expected efficiency. Among the most important and complex settings is the heating curve and yet there are no easy-to-use methods to optimize it after its initial set-up. This study aims to develop ready-to-use guidelines for optimizing the heating curve with energy-efficient adjustments that improve room comfort and prevent suboptimal user changes, all without requiring additional sensors like room thermostats. Based on interpretable linear models, estimated on 3995 air-to-water heat pumps, located in Central Europe, we select the least energy-intensive heating curve shift for each outdoor temperature. We find that the standard parallel shift of the heating curve is only the optimal approach when the average outdoor temperature is between 2-5°C. Outside this range, the heating curve should be moved at its starting or the endpoint. Simulation shows, that by replacing the current user input to the room controller that creates a parallel shift of the heating curve with our proposed changes, 84.42% of the heating curves can be improved, leading to an average reduction in yearly energy consumption of 4.02% and an increase of the seasonal coefficient of performance by 2.59% on average. By introducing ready-to-use heating curve improvement guidelines, we aim to increase efficiency and confidence in heat pump technology, ensuring its adoption to meet carbon emission targets.},
+  selected={false}
+}
+
 @phdthesis{BRUDERMUELLER/DoctoralThesis,
   preview = {hpservices.jpg},
   bibtex_show={false},
@@ -21,18 +65,6 @@
   selected={false},
   doi={https://doi.org/10.3929/ethz-b-000714050},
   html={https://www.research-collection.ethz.ch/handle/20.500.11850/714050}
-}
-
-@article{BRUDERMUELLER/HPEfficiency,
-  preview = {copdistributions3.jpg},
-  bibtex_show={false},
-  title = {Energy efficiency and behavior of heat pumps in residential buildings under real conditions},
-  journal = {Currently in revision},
-  year = {2024},
-  author = {Tobias Brudermueller and Ugne Potthoff and Elgar Fleisch and Thorsten Staake and Felix Wortmann},
-  abstract = {As heat pumps become more prevalent in residential buildings, effective performance monitoring is essential. Design flaws, incorrect settings, and faults can escalate energy consumption and costs, leading to discrepancies in user expectations and hindering the widespread adoption of this technology crucial for the heating transition. However, field studies using large data sets to offer insights into real-world performance and methods for identifying low-performing systems in practical, scalable applications are lacking. In the largest field study to date, we analyze sensor data from 1,023 heat pumps across Central Europe monitored over two years. Based on existing approaches for controlled laboratory conditions, we derive methods to evaluate and classify real-world performance using operational data. Applying these methods, we find that 17% of air-source and 2% of ground-source heat pumps do not meet existing efficiency standards. Additionally, around 10% of systems are oversized, while approximately 1% are undersized. This underscore the need for standardized post-installation performance evaluation procedures and digital tools to provide actionable feedback for users and installers to enhance operational efficiency and guide future installations.},
-  keywords = {Heat Pump, Energy Efficiency, Performance, Residential Building, Real-World Operation, Appliance Monitoring, Machine Learning, Sensor Data},
-  selected={false}
 }
 
 @article{BRUDERMUELLER/EVCharging,
@@ -145,7 +177,7 @@
   html={https://ieeexplore.ieee.org/abstract/document/9961055},
   code={https://github.com/tbrumue/smd-hp-type-detection},
   abstract={With the increasing prevalence of heat pumps in private households, the need for optimization is growing. At the same time, the growing number of active smart electricity meters generates data that can be used for remote monitoring. In this paper, we focus on the automatic differentiation between fixed speed and variable speed heat pumps using smart meter data. This distinction is relevant because it is necessary for evaluating the state or cyclic behavior of a heat pump. In addition, identifying fixed speed heat pumps is important because they are known to be the less efficient systems and therefore may be preferred targets in energy efficiency or replacement campaigns. Our methods are applied to electricity data from 171 Swiss households with a resolution of 15 minutes. In this setting, a K-Nearest Neighbor model achieves a mean AUC of 0.976 compared to 0.5 of a biased random guess model.},
-  selected={true}
+  selected={false}
 }
 
 @article{brudermueller2020making,
