@@ -3,7 +3,8 @@ github_users:
 
 github_repos:
   - bitstoenergy/iclr-tutorial
+  - tbrumue/heapo
   - tbrumue/smd-hp-cycling
-  - tbrumue/smd-hp-type-detection
   - tbrumue/smd-hp-disaggregation
+  - tbrumue/smd-hp-type-detection
   - KrishnaswamyLab/logicml
