@@ -22,14 +22,44 @@
 @article{BRUDERMUELLER/HEAPO,
   preview = {heapoenergyconsumption.jpg},
   bibtex_show={true},
-  title={HEAPO - An Open Dataset for Heat Pump Optimization with Smart Electricity Meter Data and On-Site Inspection Protocols},
-  author={Brudermueller, Tobias and Fleisch, Elgar and Gonzalez-Vaya, Marina and Staake, Thorsten},
-  journal={arXiv preprint arXiv:2503.16993},
-  year={2025},
-  abstract={Heat pumps are essential for decarbonizing residential heating but consume substantial electrical energy, impacting operational costs and grid demand. Many systems run inefficiently due to planning flaws, operational faults, or misconfigurations. While optimizing performance requires skilled professionals, labor shortages hinder large-scale interventions. However, digital tools and improved data availability create new service opportunities for energy efficiency, predictive maintenance, and demand-side management. To support research and practical solutions, we present an open-source dataset of electricity consumption from 1,408 households with heat pumps and smart electricity meters in the canton of Zurich, Switzerland, recorded at 15-minute and daily resolutions between 2018-11-03 and 2024-03-21. The dataset includes household metadata, weather data from 8 stations, and ground truth data from 410 field visit protocols collected by energy consultants during system optimizations. Additionally, the dataset includes a Python-based data loader to facilitate seamless data processing and exploration.},
-  html={https://arxiv.org/abs/2503.16993},
+  title = {HEAPO – An Open Dataset for Heat Pump Optimization with Smart Electricity Meter Data and On-Site Inspection Protocols},
+  year = {2025},
+  isbn = {9798400711251},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  doi = {10.1145/3679240.3734637},
+  abstract = {Heat pumps are essential for decarbonizing residential heating but consume substantial electrical energy, impacting operational costs and grid demand. Many systems run inefficiently due to planning flaws, operational faults, or misconfigurations. While optimizing performance requires skilled professionals, labor shortages hinder large-scale interventions. However, digital tools and improved data availability create new service opportunities for energy efficiency, predictive maintenance, and demand-side management. To support research and practical solutions, we present an open-source dataset of electricity consumption from 1,408 households with heat pumps and smart electricity meters in the canton of Zurich, Switzerland, recorded at 15-minute and daily resolutions between 2018-11-03 and 2024-03-21. The dataset includes household metadata, weather data from 8 stations, and ground truth data from 410 field visit protocols collected by energy consultants during system optimizations. Additionally, the dataset includes a Python-based data loader to facilitate seamless data processing and exploration.},
+  booktitle = {Proceedings of the 16th ACM International Conference on Future and Sustainable Energy Systems},
+  pages = {699–711},
+  numpages = {13},
+  keywords = {heat pump, optimization, smart electricity meter, open energy data},
+  location = {Rotterdam, Netherlands},
+  series = {E-Energy '25},
+  html={https://dl.acm.org/doi/full/10.1145/3679240.3734637},
   code={https://github.com/tbrumue/heapo},
-  pdf={https://arxiv.org/pdf/2503.16993.pdf},
+  pdf={https://dl.acm.org/doi/pdf/10.1145/3679240.3734637},
+  selected={true}
+}
+
+@inproceedings{BRUDERMUELLER/KDE, 
+  preview = {energy_hp_density.jpg},
+  bibtex_show={true},
+  author = {Leo Semmelmann and Tobias Brudermueller}, 
+  title = {Rapidly Trainable Large-Scale Probabilistic Heat Pump Load Forecasting: A Kernel Density Estimation Approach}, 
+  year = {2025}, 
+  isbn = {979840071125}, 
+  publisher = {Association for Computing Machinery}, 
+  address = {New York, NY, USA}, 
+  doi = {10.1145/3679240.3734640}, 
+  abstract = {As the electrification of heating accelerates, accurate and scalable probabilistic forecasting of heat pump loads becomes increasingly important for grid operators, utilities, and other practitioners. While state-of-the-art methods such as quantile gradient boosting offer high forecast accuracy, they are often computationally intensive and difficult to scale for large datasets. To address this challenge, we propose a Kernel Density Estimation (KDE)-based approach for probabilistic load forecasting in households with heat pumps. Using real-world data from 1,193 Swiss households, we benchmark KDE against quantile gradient boosting regarding forecast accuracy—measured via pinball loss—and computational efficiency. Our results show that KDE performs slightly better in 8 out of 9 quantiles while reducing training time by 3500\texttimes{}, though at the cost of higher inference time due to its sampling-based quantile estimation.}, 
+  booktitle = {Proceedings of the 16th ACM International Conference on Future and Sustainable Energy Systems}, 
+  pages = {727–732}, 
+  numpages = {6}, 
+  keywords = {Heat pumps, load forecasting, kernel density estimation}, 
+  location = {Rotterdam, Netherlands}, 
+  series = {E-Energy '25},
+  html={https://dl.acm.org/doi/full/10.1145/3679240.3734640},
+  pdf={https://dl.acm.org/doi/pdf/10.1145/3679240.3734640},
   selected={false}
 }
 
@@ -148,7 +178,7 @@
   html={https://dl.acm.org/doi/10.1145/3600100.3623731},
   code = {https://github.com/tbrumue/smd-hp-disaggregation},
   pdf={https://dl.acm.org/doi/pdf/10.1145/3600100.3623731},
-  selected={true}
+  selected={false}
 }
 
 @inproceedings{BRUDERMUELLER/2023ICLR,
