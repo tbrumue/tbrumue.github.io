@@ -1,9 +1,26 @@
----
-layout: page
-permalink: /404.html
-title: "Page not found"
-description: "Looks like there has been a mistake. Nothing exists here."
-redirect: true
----
-
-<p>You will be redirected to the main page within 3 seconds. If not redirected, please go back to the <a href="{{ site.baseurl }}/">home page</a>.</p>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Tobias Brudermüller</title>
+    <!--
+      GitHub Pages serves this file for every address that no longer exists, so old links keep working:
+      they land on the matching part of the new site, or on its home page.
+    -->
+    <meta name="robots" content="noindex" />
+    <script>
+      (function () {
+        var NEW = "https://tbrumue.vercel.app";
+        var path = location.pathname.toLowerCase();
+        var to = "/";
+        if (path.indexOf("/publications") === 0) to = "/#publications";
+        else if (path.indexOf("/projects") === 0) to = "/#work";
+        location.replace(NEW + to);
+      })();
+    </script>
+    <noscript><meta http-equiv="refresh" content="0; url=https://tbrumue.vercel.app/" /></noscript>
+  </head>
+  <body>
+    <p>This site has moved to <a href="https://tbrumue.vercel.app/">tbrumue.vercel.app</a>.</p>
+  </body>
+</html>
